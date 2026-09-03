@@ -1,4 +1,4 @@
-# Brainrot
+# Cursor Brainrot
 
 Abre TikTok, Instagram Reels e YouTube Shorts em 3 janelas enquanto o Cursor pensa. Fecha só essas janelas quando o agente termina.
 
@@ -7,8 +7,8 @@ Abre TikTok, Instagram Reels e YouTube Shorts em 3 janelas enquanto o Cursor pen
 **Requisitos:** Cursor, Python 3.10+, Chrome/Brave/Edge
 
 ```bash
-git clone https://github.com/brayanspagnol/brainrot.git
-cd brainrot
+git clone https://github.com/brayanspagnol/cursor-brainrot.git
+cd cursor-brainrot
 python3 brainrot.py install      # Linux
 # py -3 .\brainrot.py install   # Windows
 ```

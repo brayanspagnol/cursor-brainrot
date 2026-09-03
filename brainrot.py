@@ -23,7 +23,7 @@ CREATE_NO_WINDOW = 0x08000000
 
 
 def log(message: str) -> None:
-    line = f"[brainrot] {message}\n"
+    line = f"[cursor-brainrot] {message}\n"
     sys.stderr.write(line)
     try:
         path = log_path()
@@ -37,9 +37,9 @@ def log(message: str) -> None:
 def cache_dir() -> Path:
     if os.name == "nt":
         base = os.environ.get("LOCALAPPDATA") or str(Path.home() / "AppData" / "Local")
-        return Path(base) / "brainrot"
+        return Path(base) / "cursor-brainrot"
     xdg = os.environ.get("XDG_CACHE_HOME")
-    return Path(xdg) / "brainrot" if xdg else Path.home() / ".cache" / "brainrot"
+    return Path(xdg) / "cursor-brainrot" if xdg else Path.home() / ".cache" / "cursor-brainrot"
 
 
 def log_path() -> Path:
