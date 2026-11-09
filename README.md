@@ -1,5 +1,9 @@
 # Cursor Brainrot
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Platform: Linux | Windows](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-blue)
+![Language: Python](https://img.shields.io/badge/language-Python-3776AB)
+
 Opens TikTok, Instagram Reels and YouTube Shorts in 3 windows while Cursor is thinking. Closes only those windows when the agent finishes.
 
 ## Installation
