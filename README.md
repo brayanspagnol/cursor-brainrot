@@ -1,10 +1,14 @@
 # Cursor Brainrot
 
-Abre TikTok, Instagram Reels e YouTube Shorts em 3 janelas enquanto o Cursor pensa. Fecha só essas janelas quando o agente termina.
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Platform: Linux | Windows](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-blue)
+![Language: Python](https://img.shields.io/badge/language-Python-3776AB)
 
-## Instalação
+Opens TikTok, Instagram Reels and YouTube Shorts in 3 windows while Cursor is thinking. Closes only those windows when the agent finishes.
 
-**Requisitos:** Cursor, Python 3.10+, Chrome/Brave/Edge
+## Installation
+
+**Requirements:** Cursor, Python 3.10+, Chrome/Brave/Edge
 
 ```bash
 git clone https://github.com/brayanspagnol/cursor-brainrot.git
@@ -13,24 +17,24 @@ python3 brainrot.py install      # Linux
 # py -3 .\brainrot.py install   # Windows
 ```
 
-Reinicie o Cursor se os hooks não dispararem.
+Restart Cursor if the hooks don't fire.
 
 ## Login
 
-Usa o **mesmo perfil** do seu Brave/Chrome — se você já está logado no navegador, as janelas do brainrot também vêm logadas.
+It uses the **same profile** as your Brave/Chrome, so if you're already logged in on the browser, the brainrot windows are logged in too.
 
-O `close` fecha **somente** as 3 janelas do brainrot. O resto do browser continua aberto.
+`close` closes **only** the 3 brainrot windows. The rest of the browser stays open.
 
-## Uso
+## Usage
 
 ```bash
 python3 brainrot.py open
 python3 brainrot.py close
 ```
 
-Para mudar os sites, edite `URLS` em `brainrot.py`.
+To change the sites, edit `URLS` in `brainrot.py`.
 
-## Desinstalar
+## Uninstall
 
 ```bash
 python3 brainrot.py uninstall
